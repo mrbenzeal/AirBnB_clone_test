@@ -24,6 +24,12 @@ To see the fundamental background of the project visit the [Wiki](https://github
 
 HolbertonBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 The project currently only implements the back-end console.
+The console will perform the following tasks:
+
+* create a new object
+* retrive an object from a file
+* do operations on objects
+* destroy an object
 
 ## Classes :cl:
 
@@ -38,7 +44,7 @@ HolbertonBnB utilizes the following classes:
 
 ## Storage :baggage_claim:
 
-The above classes are handled by the abstracted storage engine defined in the 
+The above classes are handled by the abstracted `Storage` engine defined in the 
 [FileStorage](./models/engine/file_storage.py) class.
 
 Every time the backend is initialized, HolbertonBnB instantiates an instance of 
@@ -103,11 +109,12 @@ $
 
 The AirBnB or HolbertonBnB console supports the following commands:
 
+> And are displayed in the following format: *Command / usage / example with output*
+
 * **create**
   * Usage: `create <class>`
 
-Creates a new instance of a given class. The class' ID is printed and 
-the instance is saved to the file `file.json`.
+> *Creates a new instance of a given class. The class' ID is printed and the instance is saved to the file `file.json`.*
 
 ```
 $ ./console.py
@@ -123,7 +130,7 @@ Model", "id": "119be863-6fe5-437e-a180-b9892e8746b8"}}
 * **show**
   * Usage: `show <class> <id>` or `<class>.show(<id>)`
 
-Prints the string representation of a class instance based on a given id.
+> *Prints the string representation of a class instance based on a given id.*
 
 ```
 $ ./console.py
@@ -144,8 +151,7 @@ c3240b29f46', 'created_at': datetime.datetime(2019, 2, 17, 21, 34, 3, 635828),
 * **destroy**
   * Usage: `destroy <class> <id>` or `<class>.destroy(<id>)`
 
-Deletes a class instance based on a given id. The storage file `file.json` 
-is updated accordingly.
+> *Deletes a class instance based on a given id. The storage file `file.json` is updated accordingly.*
 
 ```
 $ ./console.py
@@ -164,8 +170,7 @@ $ cat file.json ; echo ""
 * **all**
   * Usage: `all` or `all <class>` or `<class>.all()`
 
-Prints the string representations of all instances of a given class. If no 
-class name is provided, the command prints all instances of every class.
+> *Prints the string representations of all instances of a given class. If no class name is provided, the command prints all instances of every class.*
 
 ```
 $ ./console.py
@@ -213,7 +218,7 @@ c3-f4bf-425e-b1d4-165f52c6ff81) {'updated_at': datetime.datetime(2019, 2, 17, 2
 * **count**
   * Usage: `count <class>` or `<class>.count()`
 
-Retrieves the number of instances of a given class.
+> *Retrieves the number of instances of a given class.*
 
 ```
 $ ./console.py
@@ -236,11 +241,11 @@ aa229cbb-5b19-4c32-8562-f90a3437d301
 `<class>.update(<id>, <attribute name>, <attribute value>)` or `<class>.update(
 <id>, <attribute dictionary>)`.
 
-Updates a class instance based on a given id with a given key/value attribute 
+> *Updates a class instance based on a given id with a given key/value attribute 
 pair or dictionary of attribute pairs. If `update` is called with a single 
 key/value attribute pair, only "simple" attributes can be updated (ie. not 
 `id`, `created_at`, and `updated_at`). However, any attribute can be updated by 
-providing a dictionary.
+providing a dictionary.*
 
 ```
 $ ./console.py
