@@ -291,10 +291,22 @@ $ python3 unittest -m tests/test_console.py
 
 [Ani Obinna Benzeal](https://www.linkedin.com/in/engraniobc/) | [Twitter](https://twitter.com/AniBenzeal) | [GitHub](https://github.com/mrbenzeal)
 
-*Natnael Feleke* - [Github](https://github.com/NatiBoy33) || 
+*Natnael Feleke* - [Github](https://github.com/NatiBoy33)  
 
 ## Credit
 
-*Esteban De La Hoz* - [Github](https://github.com/Esteban1891) || [Twitter](https://twitter.com/Esteban18911)
-
-*Eduardo Vega* - [Github](https://github.com/EduardoVega04) || [Twitter](https://twitter.com/eduardo_vega04)
+<details>
+    <summary>Esteban De La Hoz</summary>
+    <ul>
+    <li><a href="https://www.github.com/Esteban1891">Github</a></li>
+    <li><a href="https://www.twitter.com/Esteban18911">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/">Linkedin</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Eduardo Vega</summary>
+    <ul>
+    <li><a href="https://www.github.com/EduardoVega04">Github</a></li>
+    <li><a href="https://www.twitter.com/eduardo_vega04">Twitter</a></li>
+    </ul>
+</details>
