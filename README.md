@@ -348,7 +348,8 @@ $
 
 ## Testing :straight_ruler:
 
-All the test are defined in the `tests` folder.
+Unittests for the HBnB project are defined in the [tests](./tests) 
+folder. 
 
 ### Documentation
 
@@ -393,19 +394,10 @@ $ echo "python3 -m unittest discover tests" | bash
 
 ### run test in non-interactive mode
 
-To run the tests in non-interactive mode, and discover all the test, you can use the command:
+To run the entire test suite simultaneously in non-interactive mode, and discover all the test, you can use the command:
 
 ```bash
 $ python3 -m unittest discover tests
-```
-
-## Testing
-
-Unittests for the HolbertonBnB project are defined in the [tests](./tests) 
-folder. To run the entire test suite simultaneously, execute the following command:
-
-```
-$ python3 unittest -m discover tests
 ```
 
 Alternatively, you can specify a single test file to run at a time:
