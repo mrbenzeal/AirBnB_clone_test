@@ -1,3 +1,7 @@
+<div align="center">
+<img alt="Alx logo" src="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png">
+</div>
+
 # 0x00. AirBnB clone - The console
 
 ---
@@ -313,5 +317,31 @@ $ python3 unittest -m tests/test_console.py
     <ul>
     <li><a href="https://www.github.com/EduardoVega04">Github</a></li>
     <li><a href="https://www.twitter.com/eduardo_vega04">Twitter</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Ayomide Suara</summary>
+    <ul>
+    <li><a href="https://www.github.com/aysuarex">Github</a></li>
+    <li><a href="https://www.twitter.com/Aysuarex">Twitter</a></li>
+    <li><a href="mailto:aysuarex@gmail.com">e-mail</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Bamidele Adefolaju</summary>
+    <ul>
+    <li><a href="https://www.github.com/lexxyla">Github</a></li>
+    <li><a href="https://www.twitter.com/lexxyla">Twitter</a></li>
+    <li><a href="mailto:bamideleadefolaju@gmail.com">e-mail</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Tolulope Fakunle</summary>
+    <ul>
+    <li><a href="https://www.github.com/Tolulope05">Github</a></li>
+    <li><a href="https://www.twitter.com/FakunleTolu">Twitter</a></li>
+    <li><a href="mailto:fakunletolulope05@gmail.com">Gmail</a></li>
+    <li><a href="https://www.linkedin.com/in/tolutech/">Linkedin</a></li>
+    <li><a href="https://wa.link/4clrdv">Whatsapp</a></li> 
     </ul>
 </details>
