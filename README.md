@@ -295,13 +295,13 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 ## Installation
 
 ```bash
-git clone https://github.com/mrbenzeal/AirBnB_clone.git
+$ git clone https://github.com/mrbenzeal/AirBnB_clone.git
 ```
 
 change to the `AirBnb` directory and run the command:
 
 ```bash
- ./console.py
+$ ./console.py
 ```
 
 ### Execution
@@ -346,7 +346,7 @@ EOF  help  quit
 $
 ```
 
-## Testing
+## Testing :straight_ruler:
 
 All the test are defined in the `tests` folder.
 
@@ -355,25 +355,25 @@ All the test are defined in the `tests` folder.
 * Modules:
 
 ```python
-python3 -c 'print(__import__("my_module").__doc__)'
+$ python3 -c 'print(__import__("my_module").__doc__)'
 ```
 
 * Classes:
 
 ```python
-python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+$ python3 -c 'print(__import__("my_module").MyClass.__doc__)'
 ```
 
 * Functions (inside and outside a class):
 
 ```python
-python3 -c 'print(__import__("my_module").my_function.__doc__)'
+$ python3 -c 'print(__import__("my_module").my_function.__doc__)'
 ```
 
 and
 
 ```python
-python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+$ python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 ```
 
 ### Python Unit Tests
@@ -388,7 +388,7 @@ python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 ### run test in interactive mode
 
 ```bash
-echo "python3 -m unittest discover tests" | bash
+$ echo "python3 -m unittest discover tests" | bash
 ```
 
 ### run test in non-interactive mode
@@ -396,10 +396,10 @@ echo "python3 -m unittest discover tests" | bash
 To run the tests in non-interactive mode, and discover all the test, you can use the command:
 
 ```bash
-python3 -m unittest discover tests
+$ python3 -m unittest discover tests
 ```
 
-## Testing :straight_ruler:
+## Testing
 
 Unittests for the HolbertonBnB project are defined in the [tests](./tests) 
 folder. To run the entire test suite simultaneously, execute the following command:
