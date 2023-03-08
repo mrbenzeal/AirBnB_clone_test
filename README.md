@@ -23,10 +23,11 @@
 A Team project to build a clone of [AirBnB](https://www.airbnb.com/).
 This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
 Data (python objects) generated are stored in a json file and can be accessed with the help of the json module in python.
-The console is a command interpreter to manage objects abstraction between objects and how they are stored.
+The console is a command interpreter to manage objects abstraction between objects and how they are stored. It is built to handle object storage using JSON serialization and deserealization. 
+This is a team project to develop a Python3 console that emulates the AirBnb object management; and include directory with static web pages for desktop and mobile first version with ARIA implementation.
 To see the fundamental background of the project visit the [Wiki](https://github.com/ralexrivero/AirBnB_clone/wiki).
 
-HolbertonBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
+HBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 The project currently only implements the back-end console.
 The console will perform the following tasks:
 
@@ -37,7 +38,7 @@ The console will perform the following tasks:
 
 ## Classes :cl:
 
-HolbertonBnB utilizes the following classes:
+HBnB utilizes the following classes:
 
 |     | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 | --- | --------- | ----------- | -----| ----- | -----| ------- | ----- | ------ |
