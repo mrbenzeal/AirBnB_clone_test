@@ -10,7 +10,7 @@
 
 ![M](https://i.imgur.com/ujItUkN.png)
 
-## Learning Objectives:bulb:
+## Learning Objectives :bulb:
 What you should learn from this project:
 
 * What is HTML
@@ -82,8 +82,8 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Ani Obinna Benzeal** - [mrbenzea](https://github.com/mrbenzeal)
+## Author :black_nib:
+* **Ani Obinna Benzeal** - [mrbenzeal](https://github.com/mrbenzeal)
 
 ### Environment
 * Languages: HTML, CSS
